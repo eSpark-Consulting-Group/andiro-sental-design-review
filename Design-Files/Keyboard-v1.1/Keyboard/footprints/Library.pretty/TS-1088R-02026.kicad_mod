@@ -1,0 +1,145 @@
+(footprint "TS-1088R-02026"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "usb usb-c 2.0 pd")
+	(property "Reference" "REF**"
+		(at 0 2.25 0)
+		(layer "F.SilkS")
+		(uuid "fc6cede9-ffa6-4ba8-a868-26259f1ab07d")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TS-1088R-02026"
+		(at 0 3.6 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7daa537-8f74-4d4d-a2a1-33514747ec89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "kbd:TS-1088R-02026"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "989f8798-b90e-4f14-ab28-5a0a8aa08774")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8208748b-65d7-4f38-8080-3b4dbf4e7713")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69aac3ac-6b86-4d67-b4a9-fea11b3af0a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "JLCPCB Part #" "C455280"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5eafdf40-f27d-45e5-91e9-25920709b9a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.95 -1.465)
+		(end -1.95 1.465)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "880efa6f-4533-4380-866b-45bd999e5109")
+	)
+	(fp_line
+		(start -1.95 -1.465)
+		(end 1.95 -1.465)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "68d295aa-e47b-4649-94af-963b4c24cdf6")
+	)
+	(fp_line
+		(start 1.95 -1.465)
+		(end 1.95 1.465)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0f0fb913-da91-493c-affb-14420059d50f")
+	)
+	(fp_line
+		(start 1.95 1.465)
+		(end -1.95 1.465)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4cc685fb-5919-4671-a76b-614ea9861791")
+	)
+	(pad "1" smd rect
+		(at -2.225 0 180)
+		(size 1.05 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "7c781790-0063-4471-832c-7f9a168503ff")
+	)
+	(pad "2" smd rect
+		(at 2.225 0 180)
+		(size 1.05 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "6f1021ab-9130-470d-bc2c-e6dc7db84ae2")
+	)
+	(model "${KBD_DIR}/kicad-packages3D/kbd.3dshapes/TS-1088R-02026.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
