@@ -6050,6 +6050,174 @@
 				)
 			)
 		)
+		(symbol "SMBJ5.0:SMBJ5.0"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -5.0835 2.4159 0)
+				(effects
+					(font
+						(size 1.7807 1.5135)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -5.0853 -4.961 0)
+				(effects
+					(font
+						(size 1.7822 1.5148)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SMBJ5.0:DIOM4336X265N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "https://pricing.snapeda.com/parts/SMBJ5.0/Taiwan%20Semiconductor/view-part?ref=eda Check availability"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMBJ5.0_1_0"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 538.48 55.88)
@@ -6214,6 +6382,12 @@
 		(uuid "1c794f50-9728-4752-ba23-578cb48e3c22")
 	)
 	(junction
+		(at 561.34 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d7ee89c-03a9-4fe4-9334-cb348b748e84")
+	)
+	(junction
 		(at 462.28 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6314,6 +6488,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33db5ebf-fc19-4a57-970b-ad5ead5d9593")
+	)
+	(junction
+		(at 96.52 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34f8bf5b-ed5e-411c-85cd-85a798911987")
 	)
 	(junction
 		(at 327.66 71.12)
@@ -6620,6 +6800,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f68aad3-daaf-4f6c-a77b-9d9e93d4c859")
+	)
+	(junction
+		(at 539.75 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60e4cb33-a351-4dcd-8d71-c62f68af0ce8")
 	)
 	(junction
 		(at 345.44 274.32)
@@ -7246,6 +7432,12 @@
 		(uuid "cf4eb11e-f9ed-47d4-aa66-2752e38bb37a")
 	)
 	(junction
+		(at 561.34 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf8bb2e8-2627-4282-acb6-c530e30c0c85")
+	)
+	(junction
 		(at 345.44 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7637,6 +7829,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 44.45) (xy 96.52 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "000a99f5-584f-40b6-8ff3-f6f468c95299")
+	)
+	(wire
+		(pts
 			(xy 228.6 55.88) (xy 228.6 49.53)
 		)
 		(stroke
@@ -7987,16 +8189,6 @@
 	)
 	(wire
 		(pts
-			(xy 477.52 33.02) (xy 477.52 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17e46637-93d5-4b67-9f0f-cb0ed852ca6c")
-	)
-	(wire
-		(pts
 			(xy 327.66 143.51) (xy 327.66 118.11)
 		)
 		(stroke
@@ -8224,16 +8416,6 @@
 			(type default)
 		)
 		(uuid "24cd833d-be34-4fa5-8bfc-ba3bc481ae6e")
-	)
-	(wire
-		(pts
-			(xy 562.61 138.43) (xy 561.34 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25b6bc7b-396e-460e-85b0-ce4308936b06")
 	)
 	(wire
 		(pts
@@ -8537,6 +8719,16 @@
 	)
 	(wire
 		(pts
+			(xy 549.91 138.43) (xy 561.34 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "390fdc76-7dd9-4db0-9b2b-2f6bdf6bc0c8")
+	)
+	(wire
+		(pts
 			(xy 457.2 261.62) (xy 457.2 279.4)
 		)
 		(stroke
@@ -8724,6 +8916,16 @@
 			(type default)
 		)
 		(uuid "460fc26f-38c9-438e-8753-44e608b41e8d")
+	)
+	(wire
+		(pts
+			(xy 539.75 140.97) (xy 542.29 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "465f55b6-1014-4156-8369-557d6c27f3db")
 	)
 	(wire
 		(pts
@@ -9137,6 +9339,16 @@
 	)
 	(wire
 		(pts
+			(xy 561.34 140.97) (xy 562.61 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fc2d2cf-3f8f-4e49-b6e7-14f7f4f968b6")
+	)
+	(wire
+		(pts
 			(xy 314.96 45.72) (xy 314.96 71.12)
 		)
 		(stroke
@@ -9184,6 +9396,16 @@
 			(type default)
 		)
 		(uuid "621a569f-fe51-4e61-a63b-2a6d1a685fb6")
+	)
+	(wire
+		(pts
+			(xy 561.34 138.43) (xy 562.61 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "626c827e-f587-4010-aa49-44cd31263901")
 	)
 	(wire
 		(pts
@@ -9517,6 +9739,16 @@
 	)
 	(wire
 		(pts
+			(xy 542.29 138.43) (xy 539.75 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "759ff58e-1daf-4a38-8fd3-19088d35ba66")
+	)
+	(wire
+		(pts
 			(xy 439.42 227.33) (xy 464.82 227.33)
 		)
 		(stroke
@@ -9794,6 +10026,16 @@
 			(type default)
 		)
 		(uuid "88abf9ed-82de-4027-b309-2ab3794ce228")
+	)
+	(wire
+		(pts
+			(xy 539.75 139.7) (xy 539.75 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "893f7b2f-a6e8-4039-a350-d9b367a3d23f")
 	)
 	(wire
 		(pts
@@ -10607,6 +10849,16 @@
 	)
 	(wire
 		(pts
+			(xy 477.52 25.4) (xy 477.52 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd2ca1e1-7274-45b5-8c57-e960597dbfb1")
+	)
+	(wire
+		(pts
 			(xy 515.62 63.5) (xy 515.62 67.31)
 		)
 		(stroke
@@ -11017,6 +11269,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 34.29) (xy 96.52 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d971e648-bb0f-493d-aed4-ab2ad3e83309")
+	)
+	(wire
+		(pts
 			(xy 370.84 109.22) (xy 383.54 109.22)
 		)
 		(stroke
@@ -11087,6 +11349,16 @@
 	)
 	(wire
 		(pts
+			(xy 530.86 128.27) (xy 530.86 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df7345be-f993-40e3-9074-24acc0a785c1")
+	)
+	(wire
+		(pts
 			(xy 403.86 287.02) (xy 425.45 287.02)
 		)
 		(stroke
@@ -11134,6 +11406,16 @@
 			(type default)
 		)
 		(uuid "e1faef45-de9c-4bc9-9206-27d58261901b")
+	)
+	(wire
+		(pts
+			(xy 96.52 34.29) (xy 99.06 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e297d752-41ad-4bb7-9616-aca6f166e611")
 	)
 	(wire
 		(pts
@@ -11244,6 +11526,16 @@
 			(type default)
 		)
 		(uuid "eb252c70-8c8d-453e-922d-7ce483bc9bc3")
+	)
+	(wire
+		(pts
+			(xy 539.75 138.43) (xy 539.75 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebdc61ba-4413-4067-9a67-5343b72fe57f")
 	)
 	(wire
 		(pts
@@ -11537,6 +11829,16 @@
 	)
 	(wire
 		(pts
+			(xy 530.86 118.11) (xy 530.86 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6448b18-f0d3-472a-9607-fde8364697ee")
+	)
+	(wire
+		(pts
 			(xy 358.14 83.82) (xy 370.84 83.82)
 		)
 		(stroke
@@ -11697,6 +11999,16 @@
 	)
 	(wire
 		(pts
+			(xy 549.91 140.97) (xy 561.34 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd2d10db-ddc9-4572-bd24-96061a759193")
+	)
+	(wire
+		(pts
 			(xy 383.54 83.82) (xy 396.24 83.82)
 		)
 		(stroke
@@ -11714,16 +12026,6 @@
 			(type default)
 		)
 		(uuid "fe57949b-4087-4865-bf40-66ff1257980d")
-	)
-	(wire
-		(pts
-			(xy 562.61 140.97) (xy 561.34 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe63f0a6-ce5f-4b66-988d-6f301a4fe2af")
 	)
 	(wire
 		(pts
@@ -11754,16 +12056,6 @@
 			(type default)
 		)
 		(uuid "ff9c4e62-bf77-427c-86d4-faa5cb52ba05")
-	)
-	(wire
-		(pts
-			(xy 91.44 34.29) (xy 99.06 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffb4db3c-03bb-4e0c-92e7-1b5733bbcfa1")
 	)
 	(text "MCU RP2040"
 		(exclude_from_sim no)
@@ -12308,7 +12600,7 @@
 		(uuid "133d0e2e-47fe-4456-ae71-e7a122a006fd")
 	)
 	(label "LED_0"
-		(at 530.86 118.11 270)
+		(at 530.86 129.54 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14067,6 +14359,75 @@
 			(project "Klaver_OB_mk_0_0"
 				(path "/0b2e405f-f8f0-4048-8757-087a7de1e370"
 					(reference "S0_8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:R")
+		(at 546.1 138.43 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "02dbc4d6-b085-493e-9719-03a1fad6fe2b")
+		(property "Reference" "R15"
+			(at 547.624 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 547.37 138.43 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 546.1 140.208 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 546.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 546.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e03d99f-2336-4ee1-8b30-cf0340f6fd82")
+		)
+		(pin "2"
+			(uuid "2b681c19-6019-4c3e-81ab-3f42670f46b8")
+		)
+		(instances
+			(project "Klaver_OB_mk_0_0"
+				(path "/0b2e405f-f8f0-4048-8757-087a7de1e370"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -20049,6 +20410,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Library:R")
+		(at 546.1 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "3c4e9426-3a67-4d47-ae78-a4d84b94d1c3")
+		(property "Reference" "R17"
+			(at 547.878 143.002 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 547.37 140.97 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 546.1 142.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 546.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 546.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d2951c8-8eb4-4f27-a596-c69b3042baab")
+		)
+		(pin "2"
+			(uuid "74c91dc9-df5c-4f4a-9fbd-7af985ebbc4a")
+		)
+		(instances
+			(project "Klaver_OB_mk_0_0"
+				(path "/0b2e405f-f8f0-4048-8757-087a7de1e370"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:VBUS")
 		(at 73.66 219.71 0)
 		(unit 1)
@@ -22892,6 +23322,75 @@
 			(project "Klaver_OB_mk_0_0"
 				(path "/0b2e405f-f8f0-4048-8757-087a7de1e370"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:R")
+		(at 530.86 124.46 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "5b9bcb3c-01c7-4a00-bc25-f9836ee180ab")
+		(property "Reference" "R16"
+			(at 533.4 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 530.86 123.19 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 532.638 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 530.86 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 530.86 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99faae62-3fc0-4d80-8123-aca9f014be83")
+		)
+		(pin "2"
+			(uuid "cf666514-3023-4150-9f4a-abda8ba81e78")
+		)
+		(instances
+			(project "Klaver_OB_mk_0_0"
+				(path "/0b2e405f-f8f0-4048-8757-087a7de1e370"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -30039,6 +30538,76 @@
 		)
 	)
 	(symbol
+		(lib_id "SMBJ5.0:SMBJ5.0")
+		(at 96.52 39.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a087483-c8da-475a-b1f5-d99b8f47d097")
+		(property "Reference" "D3"
+			(at 99.06 38.7349 90)
+			(effects
+				(font
+					(size 1.7807 1.5135)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 99.06 41.275 90)
+			(effects
+				(font
+					(size 1.7822 1.5148)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SMBJ5.0:DIOM4336X265N"
+			(at 96.52 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "https://pricing.snapeda.com/parts/SMBJ5.0/Taiwan%20Semiconductor/view-part?ref=eda Check availability"
+			(at 96.52 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "c41fd3f4-1ba9-4425-95db-322b55e36906")
+		)
+		(pin "A"
+			(uuid "ff83f6a7-a36e-463d-8cab-ca95677dd165")
+		)
+		(instances
+			(project ""
+				(path "/0b2e405f-f8f0-4048-8757-087a7de1e370"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Library:+3V3")
 		(at 134.62 34.29 0)
 		(unit 1)
@@ -32512,6 +33081,73 @@
 			(project "Klaver_OB_mk_0_0"
 				(path "/0b2e405f-f8f0-4048-8757-087a7de1e370"
 					(reference "D0_7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:+3V3")
+		(at 539.75 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b48a5ac6-430a-41ef-8f55-e374bfa4be0e")
+		(property "Reference" "#PWR04"
+			(at 543.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_0"
+			(at 535.94 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 539.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 539.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 539.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2449472e-181b-42b8-8c30-bf1d353d02b9")
+		)
+		(instances
+			(project "Klaver_OB_mk_0_0"
+				(path "/0b2e405f-f8f0-4048-8757-087a7de1e370"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -35657,85 +36293,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Library:1N4148WT")
-		(at 477.52 29.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ddb96adc-24b7-479e-b755-a17fa56ed93a")
-		(property "Reference" "D1"
-			(at 480.06 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 480.06 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 481.965 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 477.52 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 477.52 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C232841"
-			(at 477.52 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47b4dd88-19bb-44b7-b89b-a3f011088dcb")
-		)
-		(pin "2"
-			(uuid "e9ad7d79-3751-4438-aed7-fa1b6c71fbdc")
-		)
-		(instances
-			(project "Klaver_OB_mk_0_0"
-				(path "/0b2e405f-f8f0-4048-8757-087a7de1e370"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Library:Placeholder_Diode")
 		(at 383.54 270.51 90)
 		(unit 1)
@@ -36159,6 +36716,72 @@
 			(project "Klaver_OB_mk_0_0"
 				(path "/0b2e405f-f8f0-4048-8757-087a7de1e370"
 					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:GND")
+		(at 96.52 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e33ae231-1095-4019-aa4a-10d2dd966cb0")
+		(property "Reference" "#PWR06"
+			(at 96.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_0"
+			(at 96.52 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8b349d6-89b1-4f14-935a-5cdd6dc2930f")
+		)
+		(instances
+			(project "Klaver_OB_mk_0_0"
+				(path "/0b2e405f-f8f0-4048-8757-087a7de1e370"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
