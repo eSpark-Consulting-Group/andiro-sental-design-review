@@ -1,3 +1,9 @@
-History/
-*.log
-__Previews/
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~

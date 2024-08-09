@@ -1,4 +1,14 @@
-History/
-*.log
-__Previews/
-Klaver_OB_mk_0_0-backups/
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+/Design-Files/Keyboard-v1.1/Keyboard/Klaver_OB_mk_0_0-backups
