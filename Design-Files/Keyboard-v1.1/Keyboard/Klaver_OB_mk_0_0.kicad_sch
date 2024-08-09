@@ -7608,6 +7608,12 @@
 		(uuid "933d857a-ef3b-4a78-aa0c-3b4373442d65")
 	)
 	(junction
+		(at 264.16 275.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9342ef80-bfb2-4e31-9c52-eb3f39c8c527")
+	)
+	(junction
 		(at 383.54 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7732,6 +7738,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6494a42-e802-49b9-9fe2-a8fb9ddc4232")
+	)
+	(junction
+		(at 260.35 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6664704-51a2-4338-9b27-09f3ec28f05f")
 	)
 	(junction
 		(at 273.05 227.33)
@@ -8519,16 +8531,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 99.06) (xy 264.16 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00ab4d31-cb7c-4814-b574-9f21dc368bfa")
-	)
-	(wire
-		(pts
 			(xy 345.44 299.72) (xy 358.14 299.72)
 		)
 		(stroke
@@ -8646,6 +8648,16 @@
 			(type default)
 		)
 		(uuid "090710fe-6ef3-4b61-8de1-a6d1eb8d85d8")
+	)
+	(wire
+		(pts
+			(xy 267.97 275.59) (xy 267.97 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "094ac12d-3539-48ce-9de7-f8a3ce67b4aa")
 	)
 	(wire
 		(pts
@@ -9219,6 +9231,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 303.53) (xy 148.59 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24758308-1fa5-4b45-a5ae-cada7d6cc94b")
+	)
+	(wire
+		(pts
 			(xy 530.86 297.18) (xy 530.86 309.88)
 		)
 		(stroke
@@ -9729,16 +9751,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 284.48) (xy 267.97 284.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39f26033-317e-47aa-891a-0f6727723c7e")
-	)
-	(wire
-		(pts
 			(xy 361.95 334.01) (xy 361.95 336.55)
 		)
 		(stroke
@@ -10009,6 +10021,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 90.17) (xy 260.35 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46f8b8a8-9bfd-4bc3-93db-c5494baf565b")
+	)
+	(wire
+		(pts
 			(xy 480.06 224.79) (xy 480.06 242.57)
 		)
 		(stroke
@@ -10216,16 +10238,6 @@
 			(type default)
 		)
 		(uuid "4fc8038a-2ee4-40e5-a9e1-ad27804f7389")
-	)
-	(wire
-		(pts
-			(xy 147.32 304.8) (xy 152.4 304.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "504ee320-f0f7-4d68-a8d6-fcb8060b4797")
 	)
 	(wire
 		(pts
@@ -11179,16 +11191,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 303.53) (xy 152.4 303.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a854ee1-ad84-407c-8fce-bb2471827952")
-	)
-	(wire
-		(pts
 			(xy 327.66 96.52) (xy 327.66 118.11)
 		)
 		(stroke
@@ -11306,6 +11308,16 @@
 			(type default)
 		)
 		(uuid "7ff7c0ca-b12b-4760-ab5f-bcbca87e057b")
+	)
+	(wire
+		(pts
+			(xy 264.16 275.59) (xy 267.97 275.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80821b48-632e-4633-ab83-ed5709c348f6")
 	)
 	(wire
 		(pts
@@ -11889,6 +11901,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 99.06) (xy 264.16 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c7a7cfc-cdf3-4e6a-ae35-2e771f009eb6")
+	)
+	(wire
+		(pts
 			(xy 378.46 261.62) (xy 378.46 287.02)
 		)
 		(stroke
@@ -12126,16 +12148,6 @@
 			(type default)
 		)
 		(uuid "a533bce6-2238-4196-8b56-329981be10b4")
-	)
-	(wire
-		(pts
-			(xy 148.59 302.26) (xy 148.59 303.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5365c08-298e-4b23-bf5a-9e579eb7f6a7")
 	)
 	(wire
 		(pts
@@ -13299,6 +13311,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 304.8) (xy 152.4 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de99cb4f-1671-4122-9ea8-9fd6b7d8d512")
+	)
+	(wire
+		(pts
 			(xy 548.64 242.57) (xy 548.64 261.62)
 		)
 		(stroke
@@ -13509,16 +13531,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 303.53) (xy 147.32 304.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6d24a24-c263-4072-b0b6-44e814d019cb")
-	)
-	(wire
-		(pts
 			(xy 187.96 304.8) (xy 187.96 302.26)
 		)
 		(stroke
@@ -13546,6 +13558,16 @@
 			(type default)
 		)
 		(uuid "e7a30312-5369-4e69-80e3-5bc350e1c9e2")
+	)
+	(wire
+		(pts
+			(xy 146.05 303.53) (xy 146.05 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e81fbe8c-750c-4ad5-abc4-eef74785ad34")
 	)
 	(wire
 		(pts
@@ -13976,6 +13998,16 @@
 			(type default)
 		)
 		(uuid "f85f35e9-98da-4faf-a3e4-562cdeadac4b")
+	)
+	(wire
+		(pts
+			(xy 152.4 303.53) (xy 148.59 303.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f868e7bb-688c-4363-b690-23d36bffdaa3")
 	)
 	(wire
 		(pts
@@ -15267,7 +15299,7 @@
 		(uuid "9970f9b6-e2c2-4a19-a563-b96429008bc5")
 	)
 	(label "RX"
-		(at 148.59 302.26 90)
+		(at 146.05 303.53 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15377,7 +15409,7 @@
 		(uuid "ac10e866-5578-4467-9b5e-f47cc396e7fd")
 	)
 	(label "TX"
-		(at 147.32 303.53 90)
+		(at 148.59 302.26 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -42259,7 +42291,7 @@
 				)
 			)
 		)
-		(property "Value" "BSMD0805L-150"
+		(property "Value" "BSMD0805L-300"
 			(at 90.17 215.9 90)
 			(effects
 				(font
@@ -42276,7 +42308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2305121425_BHFUSE-BSMD0805L-300_C2757932.pdf"
 			(at 90.17 219.71 0)
 			(effects
 				(font
@@ -42285,7 +42317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "6V 1.5A 50A 3A 0805 Resettable Fuses ROHS"
+		(property "Description" "6V 3A 50A 6A 0805 Resettable Fuses ROHS"
 			(at 90.17 219.71 0)
 			(effects
 				(font
@@ -42294,7 +42326,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C914095"
+		(property "JLCPCB Part #" "C2757932"
 			(at 90.17 219.71 90)
 			(effects
 				(font
@@ -44702,7 +44734,7 @@
 				)
 			)
 		)
-		(property "Value" "BSMD0805L-150"
+		(property "Value" "BSMD0805L-300"
 			(at 81.28 30.48 90)
 			(effects
 				(font
@@ -44719,7 +44751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2305121425_BHFUSE-BSMD0805L-300_C2757932.pdf"
 			(at 81.28 34.29 0)
 			(effects
 				(font
@@ -44728,7 +44760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "6V 1.5A 50A 3A 0805 Resettable Fuses ROHS"
+		(property "Description" "6V 3A 50A 6A 0805 Resettable Fuses ROHS"
 			(at 81.28 34.29 0)
 			(effects
 				(font
@@ -44737,7 +44769,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C914095"
+		(property "JLCPCB Part #" "C2757932 "
 			(at 81.28 34.29 90)
 			(effects
 				(font
