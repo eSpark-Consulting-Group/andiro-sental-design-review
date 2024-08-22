@@ -10863,6 +10863,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 281.94) (xy 274.32 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df3f240-ceae-4231-8eb5-42ba3388d9e5")
+	)
+	(wire
+		(pts
 			(xy 472.44 224.79) (xy 480.06 224.79)
 		)
 		(stroke
@@ -12073,16 +12083,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 281.94) (xy 274.32 281.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a443b998-aee2-47d6-9dcf-9c584cd85555")
-	)
-	(wire
-		(pts
 			(xy 201.93 226.06) (xy 213.36 226.06)
 		)
 		(stroke
@@ -12523,16 +12523,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 279.4) (xy 274.32 279.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8f1df2b-0ea3-4da5-8183-90c35b9e32b0")
-	)
-	(wire
-		(pts
 			(xy 332.74 130.81) (xy 345.44 130.81)
 		)
 		(stroke
@@ -12600,6 +12590,16 @@
 			(type default)
 		)
 		(uuid "bb5865d7-4120-43b2-80ce-d28cb66c5a62")
+	)
+	(wire
+		(pts
+			(xy 273.05 279.4) (xy 274.32 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb8c51eb-36ab-418f-a612-2e3b8363a306")
 	)
 	(wire
 		(pts
@@ -15340,7 +15340,7 @@
 		(uuid "b04d2a11-d394-4c2d-b548-df6f837ca8a3")
 	)
 	(label "TX"
-		(at 274.32 281.94 0)
+		(at 274.32 279.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15703,7 +15703,7 @@
 		(uuid "f78f43e1-011d-4d00-a31b-1ec7dce2c4d5")
 	)
 	(label "RX"
-		(at 274.32 279.4 0)
+		(at 274.32 281.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
